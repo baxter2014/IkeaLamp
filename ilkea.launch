@@ -1,0 +1,11 @@
+<launch>
+
+  <node name="GUI" pkg="baxter_examples"
+  type="StartBaxGUI.py" args=""
+  required="true" output="screen" />
+
+  <node name="baxter" pkg="baxter_examples"
+  type="Wo.py" args=""
+  required="true" output="screen" />
+
+</launch>
